@@ -92,10 +92,10 @@ nav a{
 
 }
 .line{
-  width: 270px;
+  width: 200px;
   height: 2px;
   background:#cccc;
-  margin-left: 370px;
+  margin-left: 340px;
   border-radius:30px ;
   
 
@@ -239,9 +239,7 @@ i{
   li{
     margin-left: 18px;
   }
-  .design{
-    margin-left:32px ;
-  }
+  
   .about-img img{
     width: 350px;
     height: 400px;
