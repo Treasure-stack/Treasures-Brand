@@ -1,0 +1,270 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 20px;
+  line-height:1.7em;
+}
+nav{
+  border:orangered 2px solid;
+  text-align: center;
+  background:white ;
+  padding: 6px 0;
+}
+nav a{
+  text-decoration: none;
+  cursor: pointer;
+  border:#ccc  2px solid;
+  border-radius: 30px;
+  color:#Ccc ;
+}
+
+.home{
+  background:orangered ;
+}
+
+.index,
+.about{
+  margin-right: 8px;
+}
+.index{
+  padding:5px 13px ; 
+}
+.about,
+.contact{
+  padding: 4px 12px;
+}
+.container{
+  overflow: hidden;
+
+}
+.container-body{
+  background-color:#124;
+  height: 100%;
+  padding: 9px 12px;}
+  
+
+
+
+.bg-img{
+  color: red;
+  background:url('./background\ \(3\).jpg') ;
+  background-position:center center/cover;
+  height: 500px;
+  width: 501vh;
+
+  
+}
+.welcome-msg{
+  background-color:black;
+  height: 503px;
+  padding-top:170px;
+  padding-left: 50px;
+  position: absolute;
+  top: 58px;
+  width: 97%;
+  opacity: 0.7;
+  overflow: hidden;
+}
+
+
+
+.p1,
+.p3{
+  color:orangered;
+}
+
+.p2,.p4{
+  font-size: 40px;
+  color: orangered ;
+  
+}
+
+.bags-meaning{
+  color:pink;
+  margin-top: 10px;
+  background-color: orangered;
+  text-align: center;
+
+
+}
+.line{
+  width: 270px;
+  height: 2px;
+  background:#cccc;
+  margin-left: 370px;
+  border-radius:30px ;
+  
+
+}
+
+footer{
+  text-align: center;
+  color: #124;
+  background: black;
+  font-size: 16px;
+  padding:0;
+}
+
+/* About-page */
+.about-msg{
+  text-align: center;
+  background-color: burlywood;
+  color: #124;
+}
+
+ li{
+  list-style: circle;
+  list-style-position: inside;
+  text-align: left;
+  margin-left: 100px;
+
+}
+.aboutP{
+  font-size:28px ;
+}
+.about-img h2{
+  text-align: center;
+  color: pink;
+}
+.about-img img{
+  width: 400px;
+  height: 300px;
+  margin:5px ;
+  border-radius: 20px;
+  
+}.about-img-grid{
+  display: flex;
+  columns:repeat(3,1fr) ;
+  
+}
+
+.contact-msg{
+  text-align: center;
+  color: orangered;
+  padding: 10px;
+  
+}
+
+.contact-msg a{
+  text-decoration: none;
+  color: orangered;
+}
+.contact-msg .icon{
+  border-bottom:#ccc 1px dashed ;
+}
+i{
+  color: #ccc;
+}
+
+.social{
+  color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.social-icon{
+  color: white;
+  display: block;
+  width: 52px;
+  padding-top: 8px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 13px;
+  cursor: pointer;
+}
+
+.facebook{
+  background-color: blue;
+}
+
+
+.whatsapp{
+ background-color:green ;
+}
+
+.instagram {
+  background-color:white ;
+}
+.instagram i{
+  color: #fbad50;
+
+}
+
+
+.twitter-img img{
+  display: block;
+  width: 53px;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 13px;
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+
+@media (max-width:600px){
+  .container-body{
+    height: 100%;
+  }
+  .welcome-msg{
+    font-size: 22px;
+    padding-left: 30px;
+    
+  }
+  .line{
+    margin-left:83px ;
+    width: 200px;
+  }
+
+  .bags-meaning{
+    font-size:22px ;
+  }
+  .aboutP{
+    font-size:25px ;
+  }
+
+  li{
+    margin-left: 18px;
+  }
+  .design{
+    margin-left:32px ;
+  }
+  .about-img img{
+    width: 350px;
+    height: 400px;
+  }
+
+  .about-img-grid{
+    display: block;
+    margin: auto;
+    margin-bottom: 6px 0;
+  }
+
+  .contact-msg,
+  .social-links{
+    font-size: 25px;
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
