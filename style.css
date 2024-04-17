@@ -88,7 +88,7 @@ nav a{
   margin-top: 10px;
   background-color: orangered;
   text-align: center;
-  opacity:0.7;
+  opacity:0.6;
 
 
 }
@@ -126,6 +126,7 @@ footer{
 }
 .aboutP{
   font-size:28px ;
+  padding:5px 0;
 }
 .about-img h2{
   text-align: center;
